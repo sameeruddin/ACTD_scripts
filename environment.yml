@@ -1,0 +1,16 @@
+name: md-annotator
+
+channels:
+  - conda-forge
+  - pytorch
+
+dependencies:
+  - python=3.11
+  - pytorch::pytorch=2.4.1
+  - pytorch::torchvision=0.19.1
+  - conda-forge::cudatoolkit=11.8
+  - conda-forge::cudnn=9.1
+  - pip
+
+  - pip:
+    - megadetector==5.0.19
