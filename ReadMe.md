@@ -21,4 +21,5 @@ Verify the mega detector installation by running following script:
 python verify_md_install.py
 ```
 
+This script performs inference on the `Cat_Selfie.JPG` image, to detect animal and predict. 
 This script will print a SUCCESS message if not, please check your installation and fix this issue before proceeding to the next steps.
