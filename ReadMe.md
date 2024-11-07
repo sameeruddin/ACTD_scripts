@@ -13,7 +13,7 @@ conda env create --file environment.yml
 conda activate md-annotator
 pip install megadetector
 ```
-After the installation, download the mega detector model by clicking the follwoing link: [MegaDetector v5b] (https://github.com/agentmorris/MegaDetector/releases/download/v5.0/md_v5b.0.0.pt) and store in the `md_model` directory. Also, you can visit the[MegaDetector User Guide] (https://github.com/agentmorris/MegaDetector/blob/main/megadetector.md) page for detailed information.
+After the installation, download the mega detector model by clicking the follwoing link: [MegaDetector v5b](https://github.com/agentmorris/MegaDetector/releases/download/v5.0/md_v5b.0.0.pt) and store in the `md_model` directory. For detailed information, you can visit the[MegaDetector User Guide](https://github.com/agentmorris/MegaDetector/blob/main/megadetector.md).
 
 Verify the mega detector installation by running following script:
 
