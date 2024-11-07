@@ -1,4 +1,11 @@
-## Environment set-up
+## Generate datasets for training deep learning models
+Object detection
+Image classification
+
+
+### Environment set-up
+
+Using conda create an environment and install the libraries from the following instructions:
 
 ```
 conda env create --file environment.yml
