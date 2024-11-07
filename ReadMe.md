@@ -7,4 +7,8 @@ pip install megadetector
 ```
 
 verify the installation:
+
+```
 python verify_md_install.py
+```
+
