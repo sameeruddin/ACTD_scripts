@@ -21,8 +21,10 @@ Verify the mega detector installation by running following script:
 python verify_md_install.py
 ```
 
-This script performs inference on the `Cat_Selfie.JPG` image, to detect animal/person/vehicle class and predict the confidence score. 
+This script performs inference on the `Cat_Selfie.JPG` image, to detect animal/person/vehicle class and predict the confidence score.
+![Verify Mega Detector installation](MegaDetector_Verification.png)
+
 If the execution of the above step does not print a SUCCESS message then, please check your installation and fix this issue before proceeding to the next steps.
 
 
-### 2. Environment set-up
+### 2. Dataset generation

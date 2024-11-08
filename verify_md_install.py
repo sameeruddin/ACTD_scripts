@@ -17,6 +17,9 @@ try:
     result = model.generate_detections_one_image(image)
     detections_above_threshold = [d for d in result['detections'] if d['conf'] > 0.2]
     print('Found {} detections above threshold'.format(len(detections_above_threshold)))
+    highest_conf_detection = max(result['detections'], key=lambda x: x['conf'])
+    print(highest_conf_detection)
+    print('\n')
     print('SUCCESS')
 except OSError as oer:
     print(oer)
@@ -24,8 +27,8 @@ except OSError as oer:
 
 
 # Select the dictionary with the highest 'conf' value
-highest_conf_detection = max(result['detections'], key=lambda x: x['conf'])
-print(highest_conf_detection)
+# highest_conf_detection = max(result['detections'], key=lambda x: x['conf'])
+# print(highest_conf_detection)
 
 # verify the cropping part, if needed
 #crop_image_list = vis_utils.crop_image(detections_above_threshold, image, confidence_threshold=0.2, expansion=0)
