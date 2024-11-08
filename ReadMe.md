@@ -4,7 +4,7 @@
 * Image classification
 
 
-### Environment set-up
+### 1. Environment set-up
 
 Using conda create an environment and install the libraries from the following instructions:
 
@@ -21,5 +21,8 @@ Verify the mega detector installation by running following script:
 python verify_md_install.py
 ```
 
-This script performs inference on the `Cat_Selfie.JPG` image, to detect animal and predict. 
-This script will print a SUCCESS message if not, please check your installation and fix this issue before proceeding to the next steps.
+This script performs inference on the `Cat_Selfie.JPG` image, to detect animal/person/vehicle class and predict the confidence score. 
+If the execution of the above step does not print a SUCCESS message then, please check your installation and fix this issue before proceeding to the next steps.
+
+
+### 2. Environment set-up
