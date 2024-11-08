@@ -24,6 +24,8 @@ python verify_md_install.py
 This script performs inference on the `Cat_Selfie.JPG` image, to detect animal/person/vehicle class and predict the confidence score.
 ![Verify Mega Detector installation](MegaDetector_Verification.png)
 
+This verification can also be performed with the Jupyter notebook (`1_Generate_MD_Crop_Test.ipynb`) and this notebook will generate a cropped part of the animal detected in the image.
+
 If the execution of the above step does not print a SUCCESS message then, please check your installation and fix this issue before proceeding to the next steps.
 
 
