@@ -1,7 +1,5 @@
 ## Generate datasets for training deep learning models
 ![Mega Detector Annotator](md_annotator_explain.png)
-* Object detection
-* Image classification
 
 
 ### 1. Environment set-up
@@ -21,7 +19,11 @@ Verify the mega detector installation by running following script:
 python verify_md_install.py
 ```
 
-This script performs inference on the `Cat_Selfie.JPG` image, to detect animal/person/vehicle class and predict the confidence score.
+![Cat selfie](Cat_Selfie.JPG)
+
+This script performs inference on the above `Cat_Selfie.JPG` image, to detect animal/person/vehicle class and predict the confidence score.
+The result in the command prompt should look like below:
+
 ![Verify Mega Detector installation](MegaDetector_Verification.png)
 
 This verification can also be performed with the Jupyter notebook (`1_Generate_MD_Crop_Test.ipynb`) and this notebook will generate a cropped part of the animal detected in the image.
