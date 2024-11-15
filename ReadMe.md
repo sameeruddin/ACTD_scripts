@@ -1,4 +1,4 @@
-## Generate datasets for training deep learning models
+## Generate camera trap datasets for training deep learning models
 ![Mega Detector Annotator](md_annotator_explain.png)
 
 
