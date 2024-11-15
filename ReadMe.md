@@ -1,5 +1,5 @@
 ## Generate datasets for training deep learning models
-
+![Mega Detector Annotator](intro.pdf)
 * Object detection
 * Image classification
 
